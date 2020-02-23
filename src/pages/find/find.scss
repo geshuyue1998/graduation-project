@@ -1,0 +1,33 @@
+page-find {
+    .searchbar-ios {
+        background-color: white;
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 10px;
+    }
+    .searchbar-ios .searchbar-input {
+        color: #000;
+        background-color:rgb(233, 231, 231);
+    }
+    //话题
+    .topic{
+        padding: 0;
+        margin: 0 auto;
+        margin-left: 16px;
+        li{
+            width: 50%;
+            float: left;
+            margin-top: 10px;
+            span{
+                color: #DDCA12;
+                font-size: 18px;
+            }
+            font{
+                font-size: 15px;
+            }
+            ion-icon{
+                color: #DDCA12;
+            }
+        }
+    }
+}

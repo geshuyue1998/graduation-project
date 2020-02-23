@@ -1,0 +1,129 @@
+<ion-header>
+  <ion-navbar>
+    <!-- <img src="assets/imgs/logo.png" alt="" style="width:50px;height:50px;"> -->
+    <ion-title text-center>
+      首页
+    </ion-title>
+    <ion-icon name="add" class="add"></ion-icon>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <!-- 轮播图 -->
+    <ion-slides  autoplay="1000" loop="true" class="sli">
+      <ion-slide>
+        <img src="assets/imgs/slide1.jpg" alt="">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/slide2.jpg" alt="">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/slide3.jpg" alt="">
+      </ion-slide>
+      <ion-slide>
+          <img src="assets/imgs/slide4.jpg" alt="">
+      </ion-slide>
+    </ion-slides>
+
+    <!-- 五个小标题 -->
+    <div class="item">
+      <ul>
+        <li>
+          <img src="assets/imgs/tian.png" alt="">
+          <p>甜点饮品</p>
+        </li>
+        <li class="list">
+          <img src="assets/imgs/mian.png" alt="">
+          <p>中式面点</p>
+        </li>
+        <li class="list">
+          <img src="assets/imgs/chi.png" alt="">
+          <p>特色小吃</p>
+        </li>
+        <li class="list">
+          <img src="assets/imgs/meishi.png" alt="">
+          <p>家常菜</p>
+        </li>
+        <li class="list">
+          <img src="assets/imgs/bao.png" alt="">
+          <p>宝宝辅食</p>
+        </li>
+      </ul> 
+    </div>
+
+    <!-- 猜你喜欢 -->
+    <p class="like">猜你喜欢</p>
+    <ion-scroll scrollX="true">
+      <div class="likes">
+          <img src="assets/imgs/like1.png" alt="">
+          <p>清清凉凉一整夏</p>
+      </div>
+      <div class="likes" id="likey">
+          <img src="assets/imgs/like2.png" alt="">
+          <p>剩余食材改造妙招</p>
+      </div>
+      <div class="likes" id="likey">
+          <img src="assets/imgs/like3.png" alt="">
+          <p>分享幸福时光</p>
+      </div>
+      <div class="likes" id="likey">
+          <img src="assets/imgs/like4.png" alt="">
+          <p>有冰饮夏季才完整</p>
+      </div>
+    </ion-scroll>
+
+    <!-- 今日推荐 -->
+    <br>
+    <p class="now">今日推荐</p>
+
+    <!-- 推荐1 -->
+    <div class="daily">
+      <div class="title">
+          <div class="left">
+              <img src="assets/imgs/tou1.jpg" alt="" class="head">
+              <p class="name">小路飞吃货</p>
+          </div>
+          <div class="right">
+            <ion-icon name="heart"></ion-icon>
+            <span>3</span>
+          </div>
+      </div>
+      <p class="subject">芦笋炒虾仁</p>
+      <img src="assets/imgs/tui1.jpg" alt="">
+    </div>
+    
+    <!-- 推荐2 -->
+    <div class="daily">
+        <div class="title">
+            <div class="left">
+                <img src="assets/imgs/tou2.png" alt="" class="head">
+                <p class="name">悠悠小厨</p>
+            </div>
+            <div class="right">
+              <ion-icon name="heart"></ion-icon>
+              <span>6</span>
+            </div>
+        </div>
+        <p class="subject">自制番茄汁</p>
+        <img src="assets/imgs/tui2.jpg" alt="">
+    </div>
+    <!-- 推荐3 -->
+    <div class="daily">
+      <div class="title">
+          <div class="left">
+              <img src="assets/imgs/tou2.png" alt="" class="head">
+              <p class="name">悠悠小厨</p>
+          </div>
+          <div class="right">
+            <ion-icon name="heart"></ion-icon>
+            <span>6</span>
+          </div>
+      </div>
+      <p class="subject">自制番茄汁</p>
+      <div  class="movie">
+        <video autoplay="autoplay" controls="controls" >
+          <source src="assets/movies/tui3.mp4" type="video/mp4">
+        </video>
+      </div>
+  </div>
+</ion-content>
